@@ -64,6 +64,7 @@ if __name__ == "__main__":
     main()
 
 
+"""
 # sample input to console
 #
 # python3 step3.py 15 --rules '{
@@ -76,3 +77,7 @@ if __name__ == "__main__":
 #         "5": "Bar"
 #     }
 # }'
+
+given more time I will expand the database of the rules/output types
+
+"""

@@ -76,3 +76,11 @@ class NumericRange:
 
     def apply(self, rule: Rule):
         return [rule.applyTo(ele) for ele in range(self.range_start, self.range_end)]
+
+
+"""
+if I had more time, 
+the implementation will start with a main function that gathers the input range from the user.
+followed by the rules definition. we deconstruct that into class or compositie rules based on what we choose to implement.
+I will also increase the number of rules class to help with building more composite and unique rules.
+"""
